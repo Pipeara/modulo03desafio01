@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card{
+    margin: auto;
+    margin-top: 60px;
+    width: 300px;
+    border: 3px solid;   
+    padding: 10px;    
+    text-align: center;
+    background-color: rgb(130, 217, 162);
+    box-shadow: 10px;
+    border-radius: 30px;
+    color: white;
+    
+}
+
+input{
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 20px;
+}
+/* Estilo para el elemento select */
+select {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px; ;
+    size: 5; /* Ajusta este valor según tus necesidades */
+  }
+  
+
+button {
+    background-color: rgb(99, 182, 246);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.final {
+    font-size: 30px;
+}
+.resumen_color{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    border-radius: 50%;
+}
